@@ -1,0 +1,42 @@
+# Python Dependencies for Weather Monitoring System
+
+# Core dependencies (included in Python standard library)
+# - time
+# - datetime
+# - random
+# - json
+# - os
+
+# Optional: For hardware sensor integration with Raspberry Pi
+# Uncomment the following lines if using actual sensors:
+
+# DHT22 Temperature and Humidity Sensor
+# Adafruit-DHT==1.4.0
+
+# Alternative DHT Sensor Library
+# Adafruit-CircuitPython-DHT==3.7.9
+
+# GPIO Control for Raspberry Pi
+# RPi.GPIO==0.7.1
+
+# Alternative GPIO Library
+# gpiozero==1.6.2
+
+# For MQ-135 Air Quality Sensor (requires ADC)
+# adafruit-circuitpython-ads1x15==2.2.21
+
+# For data visualization (future enhancement)
+# matplotlib==3.7.1
+# pandas==2.0.1
+
+# For web dashboard (future enhancement)
+# flask==2.3.2
+# flask-cors==4.0.0
+
+# For database integration (future enhancement)
+# pymongo==4.3.3
+# sqlalchemy==2.0.15
+
+# For notifications (future enhancement)
+# requests==2.31.0
+# twilio==8.2.0
